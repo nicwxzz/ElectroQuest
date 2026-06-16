@@ -1,0 +1,14 @@
+body{font-family:Arial,sans-serif;background:#0b1020;color:white;margin:0}
+.hidden{display:none}
+#setup{text-align:center;padding:20px}
+.layout{display:flex;gap:20px;padding:20px}
+.painel{width:260px;background:#131f3d;padding:15px;border-radius:10px}
+#tabuleiro{flex:1;display:grid;grid-template-columns:repeat(10,1fr);gap:4px}
+.casa{height:70px;background:#1d2b50;border:1px solid cyan;position:relative;border-radius:6px}
+.numero{position:absolute;top:2px;left:4px;font-size:11px}
+.tipo{position:absolute;bottom:2px;right:2px;font-size:10px}
+.jogadoresCasa{display:flex;justify-content:center;align-items:center;height:100%;gap:2px}
+.peca{width:14px;height:14px;border-radius:50%}
+.j1{background:red}.j2{background:blue}.j3{background:green}.j4{background:yellow}
+.info{background:#1a2a52;margin:6px 0;padding:6px;border-radius:6px}
+button{padding:8px 12px}

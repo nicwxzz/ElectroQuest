@@ -1,0 +1,54 @@
+{
+  "perguntas": [
+    {
+      "pergunta": "Na oxidação ocorre?",
+      "alternativas": [
+        "Perda de elétrons",
+        "Ganho de elétrons",
+        "Ganho de prótons",
+        "Perda de nêutrons"
+      ],
+      "correta": 0
+    },
+    {
+      "pergunta": "Na redução ocorre?",
+      "alternativas": [
+        "Perda de elétrons",
+        "Ganho de elétrons",
+        "Perda de massa",
+        "Oxidação"
+      ],
+      "correta": 1
+    },
+    {
+      "pergunta": "Qual metal é usado na pilha de Daniell?",
+      "alternativas": [
+        "Zn",
+        "Au",
+        "Pt",
+        "Hg"
+      ],
+      "correta": 0
+    },
+    {
+      "pergunta": "Quem recebe elétrons?",
+      "alternativas": [
+        "Oxidado",
+        "Reduzido",
+        "Ânodo",
+        "Metal"
+      ],
+      "correta": 1
+    },
+    {
+      "pergunta": "Ferrugem é um exemplo de?",
+      "alternativas": [
+        "Corrosão",
+        "Eletrólise",
+        "Fusão",
+        "Destilação"
+      ],
+      "correta": 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ElectroQuest</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="setup">
+<h1>⚡ ElectroQuest ⚗️</h1>
+<label>Quantidade de jogadores (2-4)</label>
+<input id="qtd" type="number" min="2" max="4" value="2">
+<div id="nomes"></div>
+<button onclick="criarCampos()">Atualizar</button>
+<button onclick="iniciarJogo()">Iniciar Partida</button>
+</div>
+
+<div id="jogo" class="hidden">
+<header>
+<h1>ElectroQuest</h1>
+<p id="turno"></p>
+</header>
+
+<div class="layout">
+<div class="painel">
+<button id="dadoBtn">🎲 Rolar Dado</button>
+<h2 id="resultadoDado">-</h2>
+<div id="jogadoresInfo"></div>
+</div>
+
+<div id="tabuleiro"></div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
