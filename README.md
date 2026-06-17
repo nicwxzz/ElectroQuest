@@ -106,6 +106,10 @@ index.html
 
 em qualquer navegador moderno.
 
+4. Outra opção.
+
+Ir direto: https://nicwxzz.github.io/ElectroQuest/
+
 ---
 
 # Tecnologias
